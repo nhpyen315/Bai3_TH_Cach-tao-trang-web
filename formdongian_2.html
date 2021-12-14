@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đăng kí học viên</title>
+    <style>
+        .wufoo{
+            background-color: palegoldenrod;
+            width: 300px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="simpleform.html" class = "wufoo">
+        <table>
+            <style> 
+                th {
+                    font-family: "Lucida Grande","Lucida Sans Unicode", 'Times New Roman', sans-serif;
+                    color: blue;
+                    background-color: powderblue;
+                }   
+                tr,td {
+                    font-family: "Lucida Grande","Lucida Sans Unicode", 'Times New Roman', sans-serif;
+                    color: blue;  
+                    }
+            </style>
+                <th> ĐĂNG KÍ HỌC VIÊN</th>
+                <tr>
+                    <td>Họ và tên <input type="type" name="yourname"></td>
+                </tr> <br>
+                <tr>
+                    <td>Ngày sinh <input type="text" name="birth"></td>
+                </tr>
+                <tr>
+                    <td>Giới tính
+                        <input type="radio" name="gender"> Nam
+                        <input type="radio" name="gender"> Nữ </td>
+                </tr> <br>
+                <tr>
+                    <td>Địa chỉ <input type="textrea" name="adress"></td> 
+                </tr>
+                <tr>
+                    <td>Lớp <select name="class">
+                        <option>-Chọn lớp-</option>
+                        <option>Lớp 10</option>
+                        <option>Lớp 11</option>
+                        <option>Lớp 12</option>
+                    </select>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>Email <input type="text" name="email"></td> 
+                </tr>
+                <tr>
+                    <td>Điện thoại <input type="number" name="phone"></td> 
+                </tr>
+                <tr>
+                    <td>
+                        <button name="Submit">Đăng kí</button>
+                        <button name="Reset">Nhập lại</button>
+                    </td> 
+                </tr>
+        </table>
+
+    
+</body>
+</html>
