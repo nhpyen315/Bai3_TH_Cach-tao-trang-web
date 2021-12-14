@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wufoo {
+            background-color: paleturquoise;
+            width: 500px;
+            height: 300px;
+        
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="simpleform.html" class = "wufoo">
+        <center>
+        <table>
+            <style> 
+                table {font-family: "Lucida Grande","Lucida Sans Unicode", 'Times New Roman', sans-serif;
+                    background-color: white;
+                    width: 400px;}
+                th {
+                    font-family: "Lucida Grande","Lucida Sans Unicode", 'Times New Roman', sans-serif;
+                    color: white;
+                    background-color: red;
+                    width: 300px;
+                }   
+                tr,td {
+                    font-family: "Lucida Grande","Lucida Sans Unicode", 'Times New Roman', sans-serif;
+                    color: blue;
+                    background-color: white;    
+                    }
+            </style>
+            <center>
+                <th> SỞ THÍCH CỦA BẠN</th>
+            </center> 
+            <tr>
+                <td> Họ và tên: <input type="text" name="yourname"> </td>
+            </tr> <br>
+            <tr>
+                <td> Email: <input type="text" name="email"> </td>
+            </tr> <br>
+            <tr>
+                <td> Sở thích: <input type="checkbox" name="hobby" multiple>Thể thao 
+                                <input type="checkbox" name="hobby" multiple>Âm nhạc
+                                <input type="checkbox" name="hobby" multiple>Đọc sách
+                </td>
+            <tr>
+                <td>              
+                                <input type="checkbox" name="hobby" multiple>Lướt web
+                                <input type="checkbox" name="hobby" multiple>Chơi game
+                                <input type="checkbox" name="hobby" multiple>Điện ảnh
+                 </td> 
+            </tr>
+            <tr>
+                <td>
+                                <input type="checkbox" name="hobby" multiple>Du lịch 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button name="SubmitForm"> Gửi thông tin </button>
+                    <button name="RessetForm"> Nhập lại </button>
+                </td>
+                 
+            </tr>
+        </table>
+    </form> 
+</body>
+</html>
